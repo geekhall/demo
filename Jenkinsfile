@@ -93,7 +93,7 @@ pipeline {
                 echo '🚀 Deploying application...'
 
                 script {
-                    def remoteHost = 'root@59.110.92.250'
+                    def remoteHost = 'username@XXX.XXX.XXX.XXX'
                     def deployPath = '/opt/deployments'
                     def jarFile = "${APP_NAME}-${APP_VERSION}.jar"
 
